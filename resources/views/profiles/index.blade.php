@@ -7,8 +7,9 @@
             <img src="/img/logo2.png" alt="" srcset="" height="130" width="130" class="mr-2" style="margin-left: 40% ;">
         </div>
         <div class="col-9 pt-5">
-            <div>
+            <div class="d-flex justify-content-between">
                 <h1>{{ $user->username }}</h1>
+                <a href="">Post a photo</a>
             </div>
             <div class="d-flex">
                 <div class="pr-5"><strong>23</strong>Followers</div>
