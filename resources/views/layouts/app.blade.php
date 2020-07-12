@@ -24,7 +24,7 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
             <div> 
-            <img src="img/logo2.png" alt="" srcset="" height="60" width="60" class="mr-2" style="border-right: 1px solid #333;">
+            <img src="/img/logo2.png" alt="" srcset="" height="60" width="60" class="mr-2" style="border-right: 1px solid #333;">
             </div>
                 <a class="navbar-brand" href="{{ url('/') }}">
                    <b > Photogram</b> by Kiwiweb

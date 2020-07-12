@@ -1,9 +1,11 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\User;
 
 use Illuminate\Http\Request;
-use App\User;
+
+
 
 
 class ProfilesController extends Controller
@@ -11,10 +13,10 @@ class ProfilesController extends Controller
     
     public function index($user)
     {
-        $user = User::find($user);
+        $user = User::findorFail($user);
         return view('home', [
 
-            'user' => $user
+            'user' => $user,
 
 
         ]);
